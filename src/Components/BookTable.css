@@ -1,0 +1,96 @@
+
+.book-table-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  background-color: #333; 
+  padding: 20px;
+}
+
+
+.book-table th {
+  background-color: #555; 
+  text-align: left;
+  padding: 12px;
+  color: #fff;
+  text-align: center;
+}
+
+
+.book-table td {
+  border-bottom: 1px solid #666; 
+  padding: 12px;
+}
+
+
+.book-table tr:hover {
+  background-color: rgb(207, 197, 197); 
+}
+
+
+.book-table input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #666; 
+  border-radius: 4px;
+  background-color: #444; 
+  color: #fff; 
+}
+
+.book-table button {
+  background-color: #4caf50; 
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.book-table .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.book-table .pagination button {
+  margin: 0 4px;
+  background-color: #555; 
+  border: none;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: #fff; 
+}
+
+
+.book-table .pagination button.active {
+  background-color: #4caf50; 
+}
+
+
+@media screen and (max-width: 768px) {
+  .book-table-container {
+    padding: 10px;
+  }
+
+  .book-table {
+    font-size: 14px;
+  }
+
+  .book-table th,
+  .book-table td {
+    padding: 8px;
+  }
+
+  .book-table input[type="text"] {
+    padding: 6px;
+  }
+
+  .book-table button {
+    padding: 6px 10px;
+  }
+
+  .book-table .pagination button {
+    padding: 6px 10px;
+  }
+}

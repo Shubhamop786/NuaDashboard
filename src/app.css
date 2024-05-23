@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px; 
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.download-button {
+  display: block;
+  width: 100%;
+  max-width: 200px; 
+  margin: 0 auto;
+  background-color: green;
+  color: yellow;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: darkgreen;
+}
+
+h3 {
+  color: #333;
+  text-align: center;
+}
